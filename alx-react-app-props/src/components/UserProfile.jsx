@@ -9,5 +9,6 @@ function UserProfile(props) {
     </div>
   );
 }
-
+useContext
+UserContext
 export default UserProfile;
