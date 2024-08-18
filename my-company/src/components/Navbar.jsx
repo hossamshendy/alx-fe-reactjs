@@ -9,6 +9,7 @@ function Navbar() {
       <Link to="/contact" style={{ margin: '0 10px' }}>Contact</Link>
     </nav>
   );
-}
+}display
+justifyContent
 
 export default Navbar;
