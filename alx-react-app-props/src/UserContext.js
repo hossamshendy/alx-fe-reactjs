@@ -3,7 +3,7 @@ import React, { createContext } from 'react';
 // Create a Context
 const UserContext = createContext();
 
-// Export the Context and a Provider component
+// Create a Provider component
 export const UserProvider = ({ children, value }) => (
   <UserContext.Provider value={value}>
     {children}
@@ -11,4 +11,5 @@ export const UserProvider = ({ children, value }) => (
 );
 
 export default UserContext;
+
 
