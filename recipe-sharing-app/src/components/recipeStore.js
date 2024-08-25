@@ -25,7 +25,7 @@ const useRecipeStore = create((set) => ({
     set((state) => ({
       recipes: state.recipes.map((recipe) =>
         recipe.id === updatedRecipe.id ? updatedRecipe : recipe
-      ),
+      ),setRecipes
       filteredRecipes: state.recipes
         .map((recipe) => (recipe.id === updatedRecipe.id ? updatedRecipe : recipe))
         .filter((recipe) =>
