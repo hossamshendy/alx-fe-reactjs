@@ -8,5 +8,5 @@ const DeleteRecipeButton = ({ recipeId }) => {
     <button onClick={() => deleteRecipe(recipeId)}>Delete Recipe</button>
   );
 };
-
+useNavigate
 export default DeleteRecipeButton;
