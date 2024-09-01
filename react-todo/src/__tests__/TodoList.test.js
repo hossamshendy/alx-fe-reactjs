@@ -43,3 +43,8 @@ describe("TodoList Component", () => {
     expect(deletedTodo).toBeNull();
   });
 });
+test('renders initial todos', () => {
+  render(<TodoList />);
+  const todoItems = screen.getAllByText(/Learn React|Build a Todo App/i);
+  expect(todoItems.length).toBe(2);
+});
