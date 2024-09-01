@@ -31,5 +31,48 @@ function App() {
     </>
   )
 }
+import ProtectedRoute from './components/ProtectedRoute';
+
+function App() {
+  const isAuthenticated = false; // Replace with actual authentication check
+
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/profile/*"
+          element={
+            <ProtectedRoute isAuthenticated={isAuthenticated}>
+              <Profile />
+            </ProtectedRoute>
+          }
+        />
+        <Route path="/post/:id" element={<BlogPost />} />
+      </Routes>
+    </Router>
+  );
+}
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Profile from './components/Profile';
+import BlogPost from './components/BlogPost';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile/*" element={<Profile />} />
+        <Route path="/post/:id" element={<BlogPost />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
 
 export default App
