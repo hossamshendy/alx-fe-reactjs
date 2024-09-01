@@ -31,5 +31,24 @@ function App() {
     </>
   )
 }
+// src/App.jsx
+import React from 'react';
+import RegistrationForm from './components/RegistrationForm';
+import formikForm from './components/formikForm';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>React Form Handling</h1>
+      <h2>Controlled Components</h2>
+      <RegistrationForm />
+      <h2>Formik Components</h2>
+      <formikForm />
+    </div>
+  );
+}
+
+export default App;
+
 
 export default App
