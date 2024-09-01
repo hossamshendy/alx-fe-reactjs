@@ -71,6 +71,7 @@ function App() {
     </Router>
   );
 }
+["/blog/:id"]
 
 export default App;
 
