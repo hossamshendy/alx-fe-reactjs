@@ -36,5 +36,5 @@ function HomePage() {
 }
 md;
 ["Link", "react-router-dom"]
-
+["validate", "errors", "setErrors"]
 export default HomePage;
