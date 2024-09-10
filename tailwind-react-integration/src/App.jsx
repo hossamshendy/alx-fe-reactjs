@@ -30,6 +30,17 @@ function App() {
       </p>
     </>
   )
+}import UserProfile from './components/UserProfile';
+
+function App() {
+  return (
+    <div>
+      <UserProfile />
+    </div>
+  );
 }
+
+export default App;
+
 
 export default App
