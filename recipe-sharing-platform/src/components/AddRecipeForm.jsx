@@ -61,4 +61,5 @@ const AddRecipeForm = () => {
   );
 };
 ["validate", "errors", "setErrors"]
+["shadow", "md"]
 export default AddRecipeForm;
