@@ -24,6 +24,6 @@ function HomePage() {
       </div>
     </div>
   );
-}
+}md
 
 export default HomePage;
