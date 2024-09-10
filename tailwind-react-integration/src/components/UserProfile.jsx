@@ -14,5 +14,5 @@ function UserProfile() {
     </div>
   );
 }
-["md:p-8", "sm:p-4"]
+["md:p-8", "sm:p-4"]["md:max-w-sm"]
 export default UserProfile;
