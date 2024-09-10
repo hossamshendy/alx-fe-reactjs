@@ -60,5 +60,5 @@ const AddRecipeForm = () => {
     </div>
   );
 };
-
+["validate", "errors", "setErrors"]
 export default AddRecipeForm;
