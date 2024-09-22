@@ -40,6 +40,6 @@ const SearchBar = ({ onSearch }) => {
       </button>
     </form>
   );
-};
+};["avatar_url", "login", "Loading", "Looks like we cant find the user", "img"]
 
 export default SearchBar;
