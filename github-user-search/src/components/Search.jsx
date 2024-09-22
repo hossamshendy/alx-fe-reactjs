@@ -40,6 +40,6 @@ const SearchBar = ({ onSearch }) => {
       </button>
     </form>
   );
-};["avatar_url", "login", "Loading", "Looks like we cant find the user", "img"] ["fetchUserData"]  ["async", "await", "map", "&&"]
+};["avatar_url", "login", "Loading", "Looks like we cant find the user", "img"] ["fetchUserData"]  ["async", "await", "map", "&&"] ["html_url"]
 
 export default SearchBar;
