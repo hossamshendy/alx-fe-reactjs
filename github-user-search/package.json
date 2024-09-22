@@ -27,3 +27,4 @@
     "vite": "^5.4.1"
   }
 }
+["tailwindcss"] / src/index.css doesn't contain: ["@tailwind base", "@tailwind components", "@tailwind utilities"]
